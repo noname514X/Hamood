@@ -1,0 +1,108 @@
+[33mWARN[0m[2026-05-28 12:54:28] not enable search                            
+[36mINFO[0m[2026-05-28 12:54:28] init offline download tool SimpleHttp success: ok 
+[36mINFO[0m[2026-05-28 12:54:28] init offline download tool PikPak success: ok 
+[36mINFO[0m[2026-05-28 12:54:28] init offline download tool Thunder success: ok 
+[36mINFO[0m[2026-05-28 12:54:28] init offline download tool ThunderBrowser success: ok 
+[33mWARN[0m[2026-05-28 12:54:28] init offline download tool Transmission failed: failed get transmission version: can't get session values: 'session-get' rpc method failed: failed to execute HTTP request: Post "http://localhost:9091/transmission/rpc": dial tcp [::1]:9091: connect: connection refused 
+[36mINFO[0m[2026-05-28 12:54:28] init offline download tool 123Pan success: ok 
+[36mINFO[0m[2026-05-28 12:54:28] init offline download tool 123 Open success: ok 
+[33mWARN[0m[2026-05-28 12:54:28] init offline download tool aria2 failed: failed get aria2 version: Post "http://localhost:6800/jsonrpc": dial tcp [::1]:6800: connect: connection refused 
+[33mWARN[0m[2026-05-28 12:54:28] init offline download tool qBittorrent failed: Post "http://localhost:8080/api/v2/auth/login": dial tcp [::1]:8080: connect: connection refused 
+[36mINFO[0m[2026-05-28 12:54:28] init offline download tool ThunderX success: ok 
+[36mINFO[0m[2026-05-28 12:54:28] init offline download tool 115 Cloud success: ok 
+[36mINFO[0m[2026-05-28 12:54:28] init offline download tool 115 Open success: ok 
+[36mINFO[0m[2026-05-28 12:54:28] start HTTP server @ 0.0.0.0:5244             
+[GIN] 2026/05/28 - 12:54:50 | 200 |    2.467459ms |             ::1 | GET      "/"
+[GIN] 2026/05/28 - 12:54:50 | 200 |    2.815833ms |             ::1 | GET      "/manifest.json"
+[GIN] 2026/05/28 - 12:54:50 | 200 |    1.869917ms |             ::1 | GET      "/assets/index-DYLAoZjS.css"
+[GIN] 2026/05/28 - 12:54:50 | 200 |    7.475667ms |             ::1 | GET      "/assets/index-DhYf9r2H.js"
+[GIN] 2026/05/28 - 12:54:50 | 200 |    1.982959ms |             ::1 | GET      "/assets/entry-JpDlLTv0.js"
+[GIN] 2026/05/28 - 12:54:50 | 200 |      303.25µs |             ::1 | GET      "/api/public/archive_extensions"
+[GIN] 2026/05/28 - 12:54:50 | 200 |    2.556458ms |             ::1 | GET      "/api/public/settings"
+[GIN] 2026/05/28 - 12:54:50 | 200 |     532.625µs |             ::1 | GET      "/api/me"
+[GIN] 2026/05/28 - 12:54:50 | 200 |     625.167µs |             ::1 | GET      "/assets/index-Dud7PaMV.js"
+[GIN] 2026/05/28 - 12:54:50 | 200 |       62.25µs |             ::1 | GET      "/assets/useTitle-Ba6i3yix.js"
+[GIN] 2026/05/28 - 12:54:50 | 200 |     193.375µs |             ::1 | GET      "/assets/webauthn-json.browser-ponyfill-CVZeZdny.js"
+[GIN] 2026/05/28 - 12:54:53 | 200 |      2.9235ms |             ::1 | POST     "/api/auth/login/hash"
+[GIN] 2026/05/28 - 12:54:53 | 200 |     172.125µs |             ::1 | GET      "/api/me"
+[GIN] 2026/05/28 - 12:54:53 | 200 |     479.667µs |             ::1 | GET      "/assets/Layout-DqZvA6ms.js"
+[GIN] 2026/05/28 - 12:54:53 | 200 |     244.208µs |             ::1 | GET      "/assets/index-DW8aQqqi.js"
+[GIN] 2026/05/28 - 12:54:53 | 200 |      347.75µs |             ::1 | GET      "/assets/FolderTree-DD3x9gUh.js"
+[GIN] 2026/05/28 - 12:54:53 | 200 |      33.541µs |             ::1 | GET      "/assets/share-B8s05BlZ.js"
+[GIN] 2026/05/28 - 12:54:53 | 200 |      42.708µs |             ::1 | GET      "/assets/index-Bc50e2d2.js"
+[GIN] 2026/05/28 - 12:54:53 | 200 |      67.042µs |             ::1 | GET      "/assets/ModalInput-BLeOXZJv.js"
+[GIN] 2026/05/28 - 12:54:53 | 200 |      1.0665ms |             ::1 | GET      "/assets/index-8Z6xvvVH.js"
+[GIN] 2026/05/28 - 12:54:53 | 200 |    2.310166ms |             ::1 | GET      "/api/public/offline_download_tools"
+[31mERRO[0m[2026-05-28 12:54:53] failed list /: storage not found; please add a storage first
+failed get storage 
+[GIN] 2026/05/28 - 12:54:53 | 200 |    5.580625ms |             ::1 | POST     "/api/fs/get"
+[31mERRO[0m[2026-05-28 12:54:53] failed list /: storage not found; please add a storage first
+failed get storage 
+[GIN] 2026/05/28 - 12:54:53 | 200 |     385.334µs |             ::1 | POST     "/api/fs/list"
+[GIN] 2026/05/28 - 12:54:53 | 200 |   17.562917ms |             ::1 | GET      "/static/mermaid/mermaid.min.js"
+[GIN] 2026/05/28 - 12:54:58 | 200 |      121.25µs |             ::1 | GET      "/api/me"
+[GIN] 2026/05/28 - 12:54:58 | 200 |    1.003542ms |             ::1 | GET      "/assets/index-piGlPXiy.js"
+[GIN] 2026/05/28 - 12:54:58 | 200 |     251.792µs |             ::1 | GET      "/assets/index-DXjGKqRp.js"
+[GIN] 2026/05/28 - 12:54:58 | 200 |     340.291µs |             ::1 | GET      "/assets/Storages-DofPZSMf.js"
+[GIN] 2026/05/28 - 12:54:58 | 200 |      25.708µs |             ::1 | GET      "/assets/storage-B8Wc9tdG.js"
+[GIN] 2026/05/28 - 12:54:58 | 200 |      17.708µs |             ::1 | GET      "/assets/DeletePopover-B-WdHUit.js"
+[GIN] 2026/05/28 - 12:54:58 | 200 |     444.958µs |             ::1 | GET      "/api/admin/driver/names"
+[GIN] 2026/05/28 - 12:54:58 | 200 |     870.541µs |             ::1 | GET      "/api/admin/storage/list"
+[GIN] 2026/05/28 - 12:55:02 | 200 |          34µs |             ::1 | GET      "/assets/item_type-CyD6qwPS.js"
+[GIN] 2026/05/28 - 12:55:02 | 200 |    1.018167ms |             ::1 | GET      "/assets/AddOrEdit-ChyL_DgV.js"
+[GIN] 2026/05/28 - 12:55:02 | 200 |      20.459µs |             ::1 | GET      "/assets/ResponsiveGrid-WI_h5W3v.js"
+[GIN] 2026/05/28 - 12:55:02 | 200 |    4.845208ms |             ::1 | GET      "/api/admin/driver/list"
+[36mINFO[0m[2026-05-28 13:08:49] [baidu_netdisk] refreshing baidu_netdisk token. 
+[31mERRO[0m[2026-05-28 13:08:53] failed init storage but storage is already created: failed init storage: empty token returned from official API, a wrong refresh token may have been used 
+[GIN] 2026/05/28 - 13:08:53 | 200 |  4.884071209s |             ::1 | POST     "/api/admin/storage/create"
+[GIN] 2026/05/28 - 13:08:53 | 200 |         897µs |             ::1 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2026/05/28 - 13:08:53 | 200 |     2.12325ms |             ::1 | GET      "/api/admin/driver/info?driver=BaiduNetdisk"
+[36mINFO[0m[2026-05-28 13:12:43] [baidu_netdisk] refreshing baidu_netdisk token. 
+[GIN] 2026/05/28 - 13:12:50 | 200 |     7.082454s |             ::1 | POST     "/api/admin/storage/update"
+[GIN] 2026/05/28 - 13:12:50 | 200 |   16.327708ms |             ::1 | GET      "/api/admin/driver/list"
+[GIN] 2026/05/28 - 13:12:55 | 200 |     155.459µs |             ::1 | GET      "/api/me"
+[GIN] 2026/05/28 - 13:12:55 | 200 |    3.083042ms |             ::1 | POST     "/api/fs/list"
+[GIN] 2026/05/28 - 13:12:55 | 200 |    5.719083ms |             ::1 | GET      "/api/public/offline_download_tools"
+[GIN] 2026/05/28 - 13:12:55 | 200 |    1.546416ms |             ::1 | GET      "/assets/style-C_PtfLiD.js"
+[GIN] 2026/05/28 - 13:12:55 | 200 |    3.180667ms |             ::1 | GET      "/assets/Folder-l3qHU8MR.js"
+[GIN] 2026/05/28 - 13:12:55 | 200 |     446.875µs |             ::1 | GET      "/assets/Folder-BRAFqPGV.css"
+[GIN] 2026/05/28 - 13:12:55 | 200 |    1.953458ms |             ::1 | GET      "/assets/icon-BiIS1Tth.js"
+[GIN] 2026/05/28 - 13:12:55 | 200 |    2.206959ms |             ::1 | GET      "/assets/style-qq4T_k44.css"
+[GIN] 2026/05/28 - 13:12:55 | 200 |       2.169ms |             ::1 | GET      "/assets/video_box-Rj2D8oYF.js"
+[GIN] 2026/05/28 - 13:12:55 | 200 |       367.5µs |             ::1 | GET      "/"
+[GIN] 2026/05/28 - 13:12:55 | 200 |     190.209µs |             ::1 | GET      "/api/public/settings"
+[GIN] 2026/05/28 - 13:12:55 | 200 |          65µs |             ::1 | GET      "/api/public/archive_extensions"
+[GIN] 2026/05/28 - 13:12:55 | 200 |      101.25µs |             ::1 | GET      "/api/me"
+[GIN] 2026/05/28 - 13:12:55 | 200 |     495.167µs |             ::1 | GET      "/api/public/offline_download_tools"
+[GIN] 2026/05/28 - 13:12:55 | 200 |    2.038917ms |             ::1 | POST     "/api/fs/get"
+[GIN] 2026/05/28 - 13:12:56 | 200 |     175.167µs |             ::1 | POST     "/api/fs/list"
+[GIN] 2026/05/28 - 13:12:56 | 200 |      118.75µs |             ::1 | GET      "/assets/style-qq4T_k44.css"
+[GIN] 2026/05/28 - 13:12:56 | 200 |      53.333µs |             ::1 | GET      "/assets/icon-BiIS1Tth.js"
+[GIN] 2026/05/28 - 13:12:56 | 200 |     107.125µs |             ::1 | GET      "/assets/Folder-BRAFqPGV.css"
+[GIN] 2026/05/28 - 13:12:56 | 200 |    1.052792ms |             ::1 | GET      "/assets/video_box-Rj2D8oYF.js"
+[GIN] 2026/05/28 - 13:12:56 | 200 |     925.458µs |             ::1 | GET      "/assets/Paginator-nLaVj_bF.js"
+[GIN] 2026/05/28 - 13:12:56 | 200 |     593.625µs |             ::1 | GET      "/assets/List-CKC2X6--.js"
+[GIN] 2026/05/28 - 13:12:56 | 200 |     403.875µs |             ::1 | GET      "/assets/helper-D_wk20sr.js"
+[GIN] 2026/05/28 - 13:12:58 | 200 |  995.824958ms |             ::1 | POST     "/api/fs/list"
+[GIN] 2026/05/28 - 13:13:01 | 200 |  802.071083ms |             ::1 | POST     "/api/fs/list"
+[GIN] 2026/05/28 - 13:13:03 | 200 |    1.9705995s |             ::1 | POST     "/api/fs/list"
+[GIN] 2026/05/28 - 13:13:23 | 200 |    1.825083ms |             ::1 | GET      "/images/omniplayer.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |    5.841583ms |             ::1 | GET      "/images/iina.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |    5.935875ms |             ::1 | GET      "/images/potplayer.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |    4.953959ms |             ::1 | GET      "/images/vlc.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |         4.2ms |             ::1 | GET      "/images/nplayer.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |     307.542µs |             ::1 | GET      "/images/iPlay.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |     448.833µs |             ::1 | GET      "/images/mxplayer.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |         654µs |             ::1 | GET      "/images/mxplayer-pro.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |     426.208µs |             ::1 | GET      "/images/fileball.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |     545.458µs |             ::1 | GET      "/images/infuse.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |     261.542µs |             ::1 | GET      "/images/mpv.webp"
+[GIN] 2026/05/28 - 13:13:23 | 200 |    1.568542ms |             ::1 | GET      "/images/figplayer.webp"
+[GIN] 2026/05/28 - 13:17:04 | 200 |         3m32s |             ::1 | GET      "/d/Baidu/720集（日语版）4K/动漫-火影忍者-日语版/Naruto-092.mp4?sign=L8M3ddKbpxtclN-4gcdkyiYLeBL9niKyhpWyFv-Xlh0=:0"
+[GIN] 2026/05/28 - 13:17:36 | 200 |         4m11s |             ::1 | GET      "/d/Baidu/720集（日语版）4K/动漫-火影忍者-日语版/Naruto-091.mp4?sign=pzp7uTCICGBYiu40qKOfOQIH13g9eWtwSoLg1R9u3IY=:0"
+[GIN] 2026/05/28 - 13:17:54 | 200 |         4m10s |             ::1 | GET      "/d/Baidu/720集（日语版）4K/动漫-火影忍者-日语版/Naruto-093.mp4?sign=VDkEVKXvd1LA9zitiN1njHHx6P-JTI_-t5NlCz-T2Ko=:0"
+[GIN] 2026/05/28 - 13:18:52 | 200 |         4m26s |             ::1 | GET      "/d/Baidu/720集（日语版）4K/动漫-火影忍者-日语版/Naruto-094.mp4?sign=lip3KFVEqvUjHWS6IzPqePRjXAo9jW-jve7rKyBk_5Y=:0"
+[GIN] 2026/05/28 - 13:18:53 | 200 |         4m11s |             ::1 | GET      "/d/Baidu/720集（日语版）4K/动漫-火影忍者-日语版/Naruto-095.mp4?sign=MqfjAUxr9y8CK6VKul1Uzj4TE16m78pV8yjodsQ2DEM=:0"
+[36mINFO[0m[2026-05-28 13:19:37] Shutdown server...                           
+[36mINFO[0m[2026-05-28 13:19:37] Server exit                                  
+[36mINFO[0m[2026-05-28 13:19:37] closing db                                   

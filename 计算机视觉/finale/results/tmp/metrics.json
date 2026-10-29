@@ -1,0 +1,59 @@
+{
+  "config": {
+    "seed": 42,
+    "n_samples": 800,
+    "window": 30,
+    "horizon": 5,
+    "image_size": 96,
+    "test_size": 0.25,
+    "drift": 0.01,
+    "volatility": 0.018,
+    "wick_noise": 0.01
+  },
+  "dataset": {
+    "n_train": 600,
+    "n_test": 200,
+    "positive_ratio": 0.47625,
+    "hog_feature_dim": 4356,
+    "chart_cue_dim": 19,
+    "fused_feature_dim": 4375,
+    "raw_feature_dim": 9216
+  },
+  "results": {
+    "Majority": {
+      "accuracy": 0.525,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    "Raw pixel + SVM": {
+      "accuracy": 0.86,
+      "precision": 0.8764044943820225,
+      "recall": 0.8210526315789474,
+      "f1": 0.8478260869565217
+    },
+    "HOG + SVM": {
+      "accuracy": 0.83,
+      "precision": 0.8279569892473119,
+      "recall": 0.8105263157894737,
+      "f1": 0.8191489361702128
+    },
+    "HOG + cues + SVM": {
+      "accuracy": 0.835,
+      "precision": 0.8369565217391305,
+      "recall": 0.8105263157894737,
+      "f1": 0.8235294117647058
+    }
+  },
+  "best_model": "Raw pixel + SVM",
+  "best_confusion_matrix": [
+    [
+      94,
+      11
+    ],
+    [
+      17,
+      78
+    ]
+  ]
+}

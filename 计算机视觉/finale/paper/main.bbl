@@ -1,0 +1,46 @@
+\begin{thebibliography}{1}
+
+\bibitem{sezer2018trading}
+Omer~Berat Sezer and Ahmet~Murat {\"O}zbayo{\u{g}}lu.
+\newblock Algorithmic financial trading with deep convolutional neural
+  networks: Time series to image conversion approach.
+\newblock {\em Applied Soft Computing}, 70:525--538, 2018.
+\newblock doi: 10.1016/j.asoc.2018.04.024.
+
+\bibitem{jiang2023price}
+Jingwen Jiang, Bryan~T. Kelly, and Dacheng Xiu.
+\newblock {(Re-)Imag(in)ing Price Trends}.
+\newblock {\em The Journal of Finance}, 78(6):3193--3249, 2023.
+\newblock doi: 10.1111/jofi.13268.
+
+\bibitem{dalal2005hog}
+Navneet Dalal and Bill Triggs.
+\newblock Histograms of oriented gradients for human detection.
+\newblock In {\em 2005 IEEE Computer Society Conference on Computer Vision and
+  Pattern Recognition (CVPR'05)}, volume~1, pages 886--893, 2005.
+\newblock doi: 10.1109/CVPR.2005.177.
+
+\bibitem{cortes1995svm}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine Learning}, 20(3):273--297, 1995.
+\newblock doi: 10.1007/BF00994018.
+
+\bibitem{vanderwalt2014skimage}
+St{\'e}fan {van der Walt}, Johannes~L. Sch{\"o}nberger, Juan Nunez-Iglesias,
+  Fran{\c c}ois Boulogne, Joshua~D. Warner, Neil Yager, Emmanuelle Gouillart,
+  and Tony Yu.
+\newblock scikit-image: image processing in python.
+\newblock {\em PeerJ}, 2:e453, 2014.
+\newblock doi: 10.7717/peerj.453.
+
+\bibitem{pedregosa2011sklearn}
+Fabian Pedregosa, Ga{\"e}l Varoquaux, Alexandre Gramfort, Vincent Michel,
+  Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron
+  Weiss, Vincent Dubourg, Jake VanderPlas, Alexandre Passos, David Cournapeau,
+  Matthieu Brucher, Matthieu Perrot, and {\'E}douard Duchesnay.
+\newblock Scikit-learn: Machine learning in python.
+\newblock {\em Journal of Machine Learning Research}, 12(85):2825--2830, 2011.
+\newblock \url{https://www.jmlr.org/papers/v12/pedregosa11a.html}.
+
+\end{thebibliography}
