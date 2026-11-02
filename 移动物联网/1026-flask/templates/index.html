@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <title>IoT Dashboard</title>
+</head>
+<body>
+  <h1>IoT Dashboard</h1>
+  <div>
+    <h4>当前温度： {{ temperature }} ℃</h4>
+    <h4>当前湿度： {{ humidity }} %</h4>
+    <h4>目标温度： {{ target_temperature }} ℃</h4>
+  </div>
+  <div>
+    <form action="/set-temperature" method="POST">
+    <label for="target_temperature">设置目标温度 :</label><br>
+    <input type="number" name="target_temperature" step="0.1" id="target_temperature" placeholder="输入目标温度">
+    <button type="submit">提交</button>
+    </form>
+  </div>
+</body>
+</html>
