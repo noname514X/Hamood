@@ -26,9 +26,9 @@ pip install -r requirements.txt
 python app.py
 ```
 
-启动后浏览器访问 http://localhost:5000
+启动后浏览器访问 http://localhost:5001
 
-监听 `0.0.0.0`，局域网内其他设备也能访问；端口可通过环境变量 `PORT` 覆盖（默认 5000）。
+监听 `0.0.0.0`，局域网内其他设备也能访问；端口可通过环境变量 `PORT` 覆盖（默认 5001）。
 
 ## 路由
 
